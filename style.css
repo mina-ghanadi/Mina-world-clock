@@ -1,0 +1,310 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  margin: 70px auto;
+  display: block;
+  width: 60%;
+  margin-bottom: 10px;
+  background: url("https://s31.picofile.com/file/8469364692/background_light.jpg");
+  background-size: 100%;
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 22px;
+}
+.theme {
+  padding: 5px;
+  border-radius: 300px;
+  font-size:x-small;
+  margin: 5px;
+  height: 40px;
+  background: url("https://s31.picofile.com/file/8469364684/background_dark.jpg");
+  background-size: 100%;
+  color:  rgb(247, 193, 244);
+}
+.local {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.local-city{
+  font-size: 22px;
+  margin-top: 15px;
+  font-weight: 600;
+
+}
+.time-zone-location{
+  font-size: x-small;
+  color: rgb(94, 93, 93);
+}
+.local-time,
+.local-date {
+  margin: 5px;
+}
+.local-time {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.local-date {
+  font-size: 14px;
+  color: rgb(83, 83, 83);
+}
+.search-section {
+  width: 100%;
+  padding: 8px;
+  margin: 5px auto;
+  margin-top: 20px;
+}
+.other-city {
+  margin-top: 15px;
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+.other-city-header {
+  display: flex;
+  justify-content: space-between;
+}
+.city-name {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 35px;
+  padding-left: 20px;
+}
+.city-time {
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 15px;
+  padding-top: 35px;
+}
+.city-date {
+  font-size: 14px;
+  color: rgb(65, 65, 65);
+  padding-left: 20px;
+}
+footer {
+  text-align: center;
+  font-family:sans-serif;
+  font-size: small;
+}
+a{
+  text-decoration: none;
+  color: rgb(8, 180, 192);
+}
+/* Analog clock CSS start....................................................*/
+#clockContainer {
+  position: relative;
+  margin: auto;
+  height: 15vw;
+  /*to make the height and width responsive*/
+  width: 15vw;
+  background: url("https://s31.picofile.com/file/8469364700/clock_bright_mode.png") no-repeat;
+  /*setting our background image*/
+  background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 0.8;
+}
+
+#minute {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 0.8;
+}
+
+#second {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 0.8;
+}
+/* Analog clock CSS finish....................................................*/
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: 20px;
+}
+.delete {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 25px;
+}
+/* Dark mode css .....................................................*/
+:root {
+  --coloring: rgb(247, 193, 244);
+  --coloring2:rgb(74, 17, 167);
+}
+.dark .container {
+  background: url("https://s31.picofile.com/file/8469364684/background_dark.jpg");
+  background-size: 100%;
+}
+.dark h1 {
+  color: var(--coloring);
+}
+.dark .local-time {
+  color: var(--coloring);
+}
+.dark .local-city{
+  color: var(--coloring);
+}
+.dark #hour {
+  background: var(--coloring);
+}
+.dark #minute {
+  background: var(--coloring);
+}
+.dark #second {
+  background: var(--coloring);
+}
+.dark .delete {
+  color: var(--coloring);
+}
+.dark .city-name {
+  color: var(--coloring2);
+}
+.dark .city-time {
+  color: var(--coloring2);
+}
+.dark .city-date {
+  color: var(--coloring2);
+ 
+}
+.dark .local-date {
+  color: white;
+}
+.dark #clockContainer {
+  position: relative;
+  margin: auto;
+  height: 15vw;
+  /*to make the height and width responsive*/
+  width: 15vw;
+  background: url("https://s31.picofile.com/file/8469364718/clock_dark_mode.png") no-repeat;
+  /*setting our background image*/
+  background-size: 100%;
+}
+.dark .other-city {
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.dark .theme {
+  background: url("https://s31.picofile.com/file/8469364692/background_light.jpg");
+  background-size: 100%;
+  color: black;
+  font-size:x-small;
+  font-weight: 700;
+}
+
+/* city pictures ..........................................*/
+.Helsinki {
+  background: url("https://s31.picofile.com/file/8469364726/helsinki.jpeg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.London {
+  background: url("https://s30.picofile.com/file/8469364734/londen.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.NewYork {
+  background: url("https://s30.picofile.com/file/8469364742/new_york.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.Paris {
+  background: url("https://s31.picofile.com/file/8469364768/paris.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.Seoul {
+  background: url("https://s31.picofile.com/file/8469364776/seoul2.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.Shanghai {
+  background: url("https://s31.picofile.com/file/8469364784/shanghai.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.Sydney {
+  background: url("https://s30.picofile.com/file/8469364800/sydney.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.Tehran {
+  background: url("https://s30.picofile.com/file/8469364818/tehran.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.Tokyo {
+  background: url("https://s30.picofile.com/file/8469364826/tokyo.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.Toronto {
+  background: url("https://s31.picofile.com/file/8469364842/toronto.jpg") no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
+.oncitylayer {
+  background: rgba(250, 250, 250, 0.6);
+  height: 100%;
+  background-size: 100%;
+}
+/* responsive ...............................................*/
+@media (max-width: 512px) {
+  .delete {
+    display: none;
+  }
+  .container{
+    background-size: 150%;
+  }
+  .city-date,.city-time, .city-name{
+    font-size: 10px;
+    height: min-content;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .other-city{
+    max-height: 50px;
+    
+  }
+  footer{
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  h1{
+    font-size: 14px;
+  }
+}
