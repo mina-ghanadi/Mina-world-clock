@@ -12,7 +12,6 @@ body {
   margin-bottom: 10px;
   background: url("https://s31.picofile.com/file/8469364692/background_light.jpg");
   background-size: 100%;
-
 }
 .header {
   display: flex;
@@ -24,25 +23,24 @@ h1 {
 .theme {
   padding: 5px;
   border-radius: 300px;
-  font-size:x-small;
+  font-size: x-small;
   margin: 5px;
   height: 40px;
   background: url("https://s31.picofile.com/file/8469364684/background_dark.jpg");
   background-size: 100%;
-  color:  rgb(247, 193, 244);
+  color: rgb(247, 193, 244);
 }
 .local {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-.local-city{
+.local-city {
   font-size: 22px;
   margin-top: 15px;
   font-weight: 600;
-
 }
-.time-zone-location{
+.time-zone-location {
   font-size: x-small;
   color: rgb(94, 93, 93);
 }
@@ -94,10 +92,10 @@ h1 {
 }
 footer {
   text-align: center;
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-size: small;
 }
-a{
+a {
   text-decoration: none;
   color: rgb(8, 180, 192);
 }
@@ -108,7 +106,8 @@ a{
   height: 15vw;
   /*to make the height and width responsive*/
   width: 15vw;
-  background: url("https://s31.picofile.com/file/8469364700/clock_bright_mode.png") no-repeat;
+  background: url("https://s31.picofile.com/file/8469364700/clock_bright_mode.png")
+    no-repeat;
   /*setting our background image*/
   background-size: 100%;
 }
@@ -162,7 +161,7 @@ a{
 /* Dark mode css .....................................................*/
 :root {
   --coloring: rgb(247, 193, 244);
-  --coloring2:rgb(74, 17, 167);
+  --coloring2: rgb(74, 17, 167);
 }
 .dark .container {
   background: url("https://s31.picofile.com/file/8469364684/background_dark.jpg");
@@ -174,7 +173,7 @@ a{
 .dark .local-time {
   color: var(--coloring);
 }
-.dark .local-city{
+.dark .local-city {
   color: var(--coloring);
 }
 .dark #hour {
@@ -197,7 +196,6 @@ a{
 }
 .dark .city-date {
   color: var(--coloring2);
- 
 }
 .dark .local-date {
   color: white;
@@ -208,7 +206,8 @@ a{
   height: 15vw;
   /*to make the height and width responsive*/
   width: 15vw;
-  background: url("https://s31.picofile.com/file/8469364718/clock_dark_mode.png") no-repeat;
+  background: url("https://s31.picofile.com/file/8469364718/clock_dark_mode.png")
+    no-repeat;
   /*setting our background image*/
   background-size: 100%;
 }
@@ -220,58 +219,74 @@ a{
   background: url("https://s31.picofile.com/file/8469364692/background_light.jpg");
   background-size: 100%;
   color: black;
-  font-size:x-small;
+  font-size: x-small;
   font-weight: 700;
 }
 
 /* city pictures ..........................................*/
+.Bangkok {
+  background: url("https://s31.picofile.com/file/8469463668/Bangkok.jpg")
+    no-repeat;
+  background-size: 100%;
+  height: 120px;
+}
 .Helsinki {
-  background: url("https://s31.picofile.com/file/8469364726/helsinki.jpeg") no-repeat;
+  background: url("https://s31.picofile.com/file/8469364726/helsinki.jpeg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .London {
-  background: url("https://s30.picofile.com/file/8469364734/londen.jpg") no-repeat;
+  background: url("https://s30.picofile.com/file/8469364734/londen.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .NewYork {
-  background: url("https://s30.picofile.com/file/8469364742/new_york.jpg") no-repeat;
+  background: url("https://s30.picofile.com/file/8469364742/new_york.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .Paris {
-  background: url("https://s31.picofile.com/file/8469364768/paris.jpg") no-repeat;
+  background: url("https://s31.picofile.com/file/8469364768/paris.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .Seoul {
-  background: url("https://s31.picofile.com/file/8469364776/seoul2.jpg") no-repeat;
+  background: url("https://s31.picofile.com/file/8469364776/seoul2.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .Shanghai {
-  background: url("https://s31.picofile.com/file/8469364784/shanghai.jpg") no-repeat;
+  background: url("https://s31.picofile.com/file/8469364784/shanghai.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .Sydney {
-  background: url("https://s30.picofile.com/file/8469364800/sydney.jpg") no-repeat;
+  background: url("https://s30.picofile.com/file/8469364800/sydney.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .Tehran {
-  background: url("https://s30.picofile.com/file/8469364818/tehran.jpg") no-repeat;
+  background: url("https://s30.picofile.com/file/8469364818/tehran.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .Tokyo {
-  background: url("https://s30.picofile.com/file/8469364826/tokyo.jpg") no-repeat;
+  background: url("https://s30.picofile.com/file/8469364826/tokyo.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
 .Toronto {
-  background: url("https://s31.picofile.com/file/8469364842/toronto.jpg") no-repeat;
+  background: url("https://s31.picofile.com/file/8469364842/toronto.jpg")
+    no-repeat;
   background-size: 100%;
   height: 120px;
 }
@@ -285,26 +300,27 @@ a{
   .delete {
     display: none;
   }
-  .container{
+  .container {
     background-size: 150%;
   }
-  .city-date,.city-time, .city-name{
+  .city-date,
+  .city-time,
+  .city-name {
     font-size: 10px;
     height: min-content;
     padding-top: 2px;
     padding-bottom: 2px;
   }
-  .other-city{
+  .other-city {
     max-height: 50px;
-    
   }
-  footer{
+  footer {
     width: 60%;
     text-align: center;
     display: block;
     margin: 0 auto;
   }
-  h1{
+  h1 {
     font-size: 14px;
   }
 }
