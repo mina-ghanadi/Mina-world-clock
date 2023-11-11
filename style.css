@@ -236,60 +236,70 @@ a {
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .London {
   background: url("https://s30.picofile.com/file/8469364734/londen.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .NewYork {
   background: url("https://s30.picofile.com/file/8469364742/new_york.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .Paris {
   background: url("https://s31.picofile.com/file/8469364768/paris.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .Seoul {
   background: url("https://s31.picofile.com/file/8469364776/seoul2.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .Shanghai {
   background: url("https://s31.picofile.com/file/8469364784/shanghai.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .Sydney {
   background: url("https://s30.picofile.com/file/8469364800/sydney.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .Tehran {
   background: url("https://s30.picofile.com/file/8469364818/tehran.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .Tokyo {
   background: url("https://s30.picofile.com/file/8469364826/tokyo.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .Toronto {
   background: url("https://s31.picofile.com/file/8469364842/toronto.jpg")
     no-repeat;
   background-size: 100%;
   height: 120px;
+  background-position: center;
 }
 .oncitylayer {
   background: rgba(250, 250, 250, 0.6);
