@@ -228,6 +228,7 @@ a {
   background: url("https://s31.picofile.com/file/8469463668/Bangkok.jpg")
     no-repeat;
   background-size: 100%;
+  background-position: center;
   height: 120px;
 }
 .Helsinki {
